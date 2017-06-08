@@ -1,0 +1,285 @@
+/* The Base */
+body {
+  background: #fffffb;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-top: -200px;
+  margin-left: -300px;
+  width: 600px;
+  padding: 0;
+  font: 300 16px/150% Lato, sans-serif;
+  color: black;
+  text-align: left;
+  -webkit-animation: fadein 3s ease;
+  -moz-animation: fadein 3s ease;
+  animation: fadein 3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a {
+  color: #446688;
+  text-decoration: none;
+  outline: 0;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  -webkit-animation: fadeincolor 7s ease;
+  -moz-animation: fadeincolor 7s ease;
+  animation: fadeincolor 7s ease; }
+
+a:hover {
+  color: #3c5977;
+  border-color: #446688; }
+
+a:active {
+  border-width: 2px; }
+
+/* Selections */
+::selection {
+  color: #fffffb;
+  background-color: #ee0000;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fffffb;
+  background-color: #ee0000;
+  text-shadow: none; }
+
+/* Content */
+header {
+  border-top: 3px solid #444444;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  -webkit-animation: fadeinborder 3s ease;
+  -moz-animation: fadeinborder 3s ease;
+  animation: fadeinborder 3s ease; }
+
+h1 {
+  font: 300 75px/100% "Futuralt", sans-serif;
+  margin: 0;
+  color: #ee0000;
+  text-transform: uppercase; }
+
+h2, h3 {
+  font: 300 37px/100% Lato, sans-serif;
+  color: #446688;
+  margin: 0;
+  -webkit-animation: fadeincolor 7s ease;
+  -moz-animation: fadeincolor 7s ease;
+  animation: fadeincolor 7s ease; }
+
+h2 {
+  -webkit-animation: fadeincolor 3s ease;
+  -moz-animation: fadeincolor 3s ease;
+  animation: fadeincolor 3s ease; }
+
+h3 {
+  font-size: 30px;
+  margin: 20px 0; }
+
+div {
+  border-top: 2px solid #444444;
+  width: 31%;
+  margin-right: 3.3333%;
+  float: left;
+  -webkit-animation: fadeinborder 7s ease;
+  -moz-animation: fadeinborder 7s ease;
+  animation: fadeinborder 7s ease; }
+
+div:nth-child(4) {
+  margin-right: 0; }
+
+div:nth-child(3), div:nth-child(3) h3, div:nth-child(3) p, div:nth-child(3) a {
+  -webkit-animation-duration: 10s; }
+
+div:nth-child(4), div:nth-child(4) h3, div:nth-child(4) p, div:nth-child(4) a {
+  -webkit-animation-duration: 13s; }
+
+p {
+  -webkit-animation: fadein 7s ease;
+  -moz-animation: fadein 7s ease;
+  animation: fadein 7s ease; }
+
+/* Media quieries for small screen formats: */
+@media screen and (min-width: 1400px) {
+  body {
+    width: 1200px;
+    margin-left: -600px;
+    margin-top: -120px; }
+
+  header {
+    width: 600px;
+    float: left;
+    border-bottom: 3px solid #444444;
+    padding: 70px 0 60px; }
+
+  div {
+    width: 180px;
+    margin-left: 20px;
+    margin-right: 0;
+    border-width: 3px;
+    padding-top: 50px; } }
+@media screen and (max-height: 500px) {
+  body {
+    position: relative;
+    margin: 30px auto 0;
+    margin-bottom: 0px;
+    left: 0;
+    right: 0; } }
+@media screen and (max-width: 640px) {
+  body {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    margin: 30px auto 0;
+    margin-bottom: 0px;
+    left: 0;
+    right: 0; }
+
+  header {
+    padding: 30px 0; }
+
+  h1 {
+    font-size: 116px;
+    letter-spacing: 6px;
+    line-height: 90%; }
+
+  h1 span {
+    display: inline-block;
+    letter-spacing: -7px; }
+
+  h2 {
+    font-size: 36px; }
+
+  h2 span {
+    letter-spacing: 1px; }
+
+  h3 {
+    font-size: 30px;
+    margin: 20px 0; }
+
+  div {
+    width: 100%;
+    margin-bottom: 30px; }
+
+  div:nth-child(4) {
+    margin-bottom: 0; } }
+/* Fonts: */
+@font-face {
+  font-family: 'Lato';
+  src: url("fonts/lato.eot");
+  src: url("fonts/lato.eot?#iefix") format("embedded-opentype"), url("fonts/lato.woff") format("woff"), url("fonts/lato.ttf") format("truetype"), url("fonts/lato.svg#lato") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futuralt';
+  src: url("fonts/futuralt.eot");
+  src: url("fonts/futuralt.eot?#iefix") format("embedded-opentype"), url("fonts/futuralt.woff") format("woff"), url("fonts/futuralt.ttf") format("truetype"), url("fonts/futuralt.svg#futuralt") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+/* Animation keyframes: */
+@-webkit-keyframes fadein {
+  from {
+    background: #fffffb;
+    color: #fffffb; }
+
+  50% {
+    background: #fffffb;
+    color: #fffffb; }
+
+  to {
+    background: #fffffb;
+    color: black; } }
+
+@-webkit-keyframes fadeincolor {
+  from {
+    color: #fffffb; }
+
+  50% {
+    color: #fffffb; }
+
+  to {
+    color: #446688; } }
+
+@-webkit-keyframes fadeinborder {
+  from {
+    border-color: #fffffb; }
+
+  50% {
+    border-color: #fffffb; }
+
+  to {
+    border-color: #444444; } }
+
+@-moz-keyframes fadein {
+  from {
+    background: #fffffb;
+    color: #fffffb; }
+
+  50% {
+    background: #fffffb;
+    color: #fffffb; }
+
+  to {
+    background: #fffffb;
+    color: black; } }
+
+@-moz-keyframes fadeincolor {
+  from {
+    color: #fffffb; }
+
+  50% {
+    color: #fffffb; }
+
+  to {
+    color: #446688; } }
+
+@-moz-keyframes fadeinborder {
+  from {
+    border-color: #fffffb; }
+
+  50% {
+    border-color: #fffffb; }
+
+  to {
+    border-color: #444444; } }
+
+@keyframes fadein {
+  from {
+    background: #fffffb;
+    color: #fffffb; }
+
+  50% {
+    background: #fffffb;
+    color: #fffffb; }
+
+  to {
+    background: #fffffb;
+    color: black; } }
+
+@keyframes fadeincolor {
+  from {
+    color: #fffffb; }
+
+  50% {
+    color: #fffffb; }
+
+  to {
+    color: #446688; } }
+
+@keyframes fadeinborder {
+  from {
+    border-color: #fffffb; }
+
+  50% {
+    border-color: #fffffb; }
+
+  to {
+    border-color: #444444; } }

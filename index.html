@@ -29,7 +29,19 @@
 			<h2 class="subtitle">I make user interfaces</h2>
 		</div>
 
-		<img class="cover" src="images/cover.jpg" alt="Hugi Hlynsson">
+		<picture class="cover">
+			<source
+				media="(max-aspect-ratio: 1/1)"
+				sizes="100vw"
+				srcset="images/header-cropped-1536w.jpg 1536w, images/header-cropped-750w.jpg 750w"
+			>
+			<img
+				alt="Hugi Hlynsson"
+				sizes="100vw"
+				src="images/header.jpg"
+				srcset="images/header-3840w.jpg 3840w, images/header-1920w.jpg 1920w, images/header-1280w.jpg 1280w"
+			>
+		</picture>
 
 		<div class="frame texts">
 			<section class="texts__item">
@@ -46,7 +58,10 @@
 			</section>
 		</div>
 
-		<img class="cover cover-footer" src="images/cover.jpg" alt="Hugi Hlynsson">
+		<picture class="cover cover-footer">
+			<source media="(max-aspect-ratio: 1/1)" srcset="images/footer-cropped.jpg" sizes="100vw">
+			<img src="images/footer.jpg" alt="Hugi Hlynsson">
+		</picture>
 
 		<div class="frame footer">
 			<h2 class="subtitle">I make user interfaces</h2>

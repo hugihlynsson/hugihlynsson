@@ -6,8 +6,16 @@
 }
 
 body {
-  padding: 20px;
+  padding: 20px 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.frame {
+  padding: 0 20px;
+}
+
+.header {
   margin-top: 30vh;
 }
 
@@ -104,14 +112,8 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .title {
-    margin-left: 10vw;
-  }
-  .subtitle {
-    margin-left: 10vw;
-  }
-
-  .texts {
-    margin: 8vh 10vw;
+  .frame {
+    margin-left: 8vh;
+    margin-right: 8vh;
   }
 }

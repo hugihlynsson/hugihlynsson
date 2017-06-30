@@ -72,9 +72,11 @@ body {
 .texts__item__title {
   font-size: 24px;
   font-weight: 600;
+  margin: 0.5em 0;
 }
 
 .texts__item__content {
+  margin-top: 0.5em;
   font-size: 18px;
   line-height: 1.6;
 }

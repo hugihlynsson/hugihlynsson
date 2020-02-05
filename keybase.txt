@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/hugihlynsson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hugihlynsson.com
+  * I am hugihlynsson (https://keybase.io/hugihlynsson) on keybase.
+  * I have a public key ASAXXkMXUBhxnnLArv5x-PgedUD89SEWEnirtkEdv7PbDwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120175e43175018719e72c0aefe71f8f81e7540fcf521161278abb6411dbfb3db0f0a",
+      "host": "keybase.io",
+      "kid": "0120175e43175018719e72c0aefe71f8f81e7540fcf521161278abb6411dbfb3db0f0a",
+      "uid": "9f728c8f34c30940e4b26506e4f90e19",
+      "username": "hugihlynsson"
+    },
+    "merkle_root": {
+      "ctime": 1580897224,
+      "hash": "da2a46a973ce9bfdf9079c9c2943858c7c8e57250b8c9cd9c224f5875306406c592d92d0187a24a6974c69d27bf08a2a95a920daa5b74f5d21fa63fd28ac93f3",
+      "hash_meta": "ddafd060f56712293defd4b424a581d52db1ba4ea42d61d5056f19071034f6c5",
+      "seqno": 14494960
+    },
+    "service": {
+      "entropy": "7maR2tBcVEcgCRHs7uakXMbP",
+      "hostname": "hugihlynsson.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1580897251,
+  "expire_in": 504576000,
+  "prev": "10aac52d74df53c90e1ac3b1929d33d39388856241e9e0f53d89ab990c61642d",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgF15DF1AYcZ5ywK7+cfj4HnVA/PUhFhJ4q7ZBHb+z2w8Kp3BheWxvYWTESpcCBcQgEKrFLXTfU8kOGsOxkp0z05OIhWJB6eD1PYmrmQxhZC3EICri5cM0kjWGp6yx9HxQcX8ax8QDFJ4dKU2DcBclSU69AgHCo3NpZ8RAM/WHR8ZKDXB7dxvHJmyUXFcnSRPvAy4c+Vy0Fgk7cZ/2z9QcRGcel30oIe/CWfiWZ4gQC7vFtPDbODqgPoOsAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMGf5yTWusk9oXrBYWJFqRQphRwHaw7tPItw+XkglA/Yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hugihlynsson
+
+==================================================================

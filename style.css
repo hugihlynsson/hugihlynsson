@@ -71,6 +71,13 @@ body {
   margin-top: 50px;
 }
 
+.texts__item__image {
+  width: 100%;
+  padding-bottom: 56.25%; /* 16/9 */
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
 .texts__item__title {
   font-size: 24px;
   font-weight: 600;
@@ -143,6 +150,7 @@ body {
   }
 
   .texts {
+    flex-wrap: wrap;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -153,11 +161,11 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 10vh 0;
+    margin: 0 0 10vh 0;
   }
   .texts__item {
     width: 30%;
-    margin: 0;
+    margin: 10vh 0 0 0;
   }
 }
 

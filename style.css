@@ -91,11 +91,50 @@ body {
   text-decoration: underline;
 }
 
+.projects {
+  margin-top: 20px;
+}
+.projects__title__text {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
 
-/*.footer {
-  margin: 20px 0;
-}*/
-
+.project {
+  margin-bottom: 40px;
+}
+.project__image {
+  width: 100%;
+  border-radius: 4px;
+}
+.project__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0.5em 0 2px;
+}
+.project__info {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #AAA;
+  font-weight: 500;
+}
+.project__content {
+  margin: 8px 0 6px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.project__content__link {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #8397B8;
+  text-decoration: none;
+}
+.project__content__link:hover {
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 350px) {
   .title {
@@ -131,6 +170,29 @@ body {
     font-size: 28px;
   }
 
+  .projects__title__text {
+    font-size: 28px;
+  }
+
+  .projects__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .project {
+    width: 46%;
+  }
+
+  .project__title {
+    font-size: 28px;
+  }
+
   .footer {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -159,6 +221,33 @@ body {
     width: 30%;
     margin: 0;
   }
+
+  .projects {
+    margin-top: 0;
+    margin-bottom: calc(10vh - 20px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projects__title {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .projects__title__text {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+  }
+  .projects__list {
+    width: 65%;
+  }
+
+  .project {
+    width: 46%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -166,6 +255,7 @@ body {
     padding: 0 10vw;
     max-width: 1500px;
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
   }
   .footer {

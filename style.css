@@ -214,6 +214,11 @@ body {
   .content__title {
     font-size: 28px;
   }
+
+  .cover-footer > source,
+  .cover-footer > img {
+    margin-top: 10vh;
+  }
 }
 
 @media screen and (min-width: 1200px) {
